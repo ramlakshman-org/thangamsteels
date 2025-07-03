@@ -128,6 +128,7 @@ export function ContactSection() {
                   <div>
                     <h4 className="font-semibold text-white mb-1">Email</h4>
                     <p className="text-gray-300">info@thangamsteelcompany.online</p>
+                    <p className="text-gray-300 mt-1">thangamsteelcompany93@gmail.com</p>
                   </div>
                 </div>
 

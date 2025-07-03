@@ -68,9 +68,12 @@ export function Footer() {
                 <Phone className="h-5 w-5 text-safety-yellow flex-shrink-0" />
                 <span className="text-gray-light">+91 9578009226</span>
               </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-safety-yellow flex-shrink-0" />
-                <span className="text-gray-light">info@thangamsteelcompany.online</span>
+              <div className="flex items-start space-x-3">
+                <Mail className="h-5 w-5 text-safety-yellow flex-shrink-0 mt-1" />
+                <div className="flex flex-col space-y-1">
+                  <span className="text-gray-light">info@thangamsteelcompany.online</span>
+                  <span className="text-gray-light">thangamsteelcompany93@gmail.com</span>
+                </div>
               </div>
             </div>
           </div>
@@ -163,25 +166,31 @@ export function Footer() {
           <p className="text-gray-light">
             © 2025 THANGAM STEELS. All rights reserved.
           </p>
-          <div className="flex space-x-6 text-sm">
-            <button 
-              onClick={() => handleLinkClick('#contact')} 
-              className="text-gray-light hover:text-safety-yellow transition-colors duration-200"
+          <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:flex sm:flex-wrap sm:gap-6">
+            <a 
+              href="/privacy-policy"
+              className="text-gray-light hover:text-safety-yellow transition-colors duration-200 whitespace-nowrap"
             >
               Privacy Policy
-            </button>
-            <button 
-              onClick={() => handleLinkClick('#contact')} 
-              className="text-gray-light hover:text-safety-yellow transition-colors duration-200"
+            </a>
+            <a 
+              href="/terms-conditions"
+              className="text-gray-light hover:text-safety-yellow transition-colors duration-200 whitespace-nowrap"
             >
-              Terms of Service
-            </button>
-            <button 
-              onClick={() => handleLinkClick('#contact')} 
-              className="text-gray-light hover:text-safety-yellow transition-colors duration-200"
+              Terms & Conditions
+            </a>
+            <a 
+              href="/shipping-policy"
+              className="text-gray-light hover:text-safety-yellow transition-colors duration-200 whitespace-nowrap"
             >
-              Sitemap
-            </button>
+              Shipping Policy
+            </a>
+            <a 
+              href="/cancellation-refund"
+              className="text-gray-light hover:text-safety-yellow transition-colors duration-200 whitespace-nowrap"
+            >
+              Cancellation & Refund
+            </a>
           </div>
         </div>
       </div>
