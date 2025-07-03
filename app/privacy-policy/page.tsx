@@ -26,8 +26,8 @@ export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1">
-        <div className="container mx-auto px-4 py-12 max-w-4xl">
+      <main className="flex-1 pt-32 md:pt-36">
+        <div className="container mx-auto px-4 pb-12 max-w-4xl">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-black text-gray-900 uppercase tracking-tight mb-4">
               PRIVACY POLICY
