@@ -70,7 +70,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-safety-yellow flex-shrink-0" />
-                <span className="text-gray-light">thangamsteelcompany93@gmail.com</span>
+                <span className="text-gray-light">info@thangamsteelcompany.online</span>
               </div>
             </div>
           </div>
